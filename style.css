@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(197, 195, 195);
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    font-family: 'Jost', sans-serif;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /*background-color: rgb(243, 15, 133);*/
+    width: 70vw;
+    height: 60vh;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+}
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+.degree{
+    font-size: 15px;
+}
+.university{
+    font-size: 15px;
+}
+
+.button button{
+    margin: 10px 7px;
+    padding: 7px 10px;
+    border-radius: 12px;
+    color: white;
+    background-color: gray;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button button:hover{
+    color: gray;
+    background-color: white;
+}
+
+.devpic img{
+    height: 60vh;
+}
+
+.contactform{
+    padding: 0 ;
+    padding-top: 144px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+.contactform form div{
+    padding: 10px 0;
+}
+.button button{
+    color: white;
+    background-color: gray;
+}
+.button button:hover{
+    color: gray;
+    background-color: white;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.icon{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 190px;
+}
+
+.mainintro{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+
+@media (max-width: 1250px) {
+    *{}
+}
